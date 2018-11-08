@@ -37,6 +37,7 @@
   * `$0` : the name of the command / script (path included)
   * `$1` : the first parameter
   * `$2` : the second parameter...
+  * `$@` : a list of all parameters
   * `$?` : the LAST exit code the system has received
 * With the new version of `bash`, we add `{}` : `${0}, ${1}...`.
 * It's considered best practice to assign parameters values to variables to give them a meaningful name (e.g. `NAME=$1`).
