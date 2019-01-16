@@ -1,4 +1,4 @@
-## if - then - elif - then - else - fi :
+## if - then - elif - then - else - fi:
 ```bash
 if [ condition ]
 then
@@ -23,7 +23,7 @@ fi
     * `-le` : less than or equal (`if [ 5 -le 5 ] ...`)
     * `-ge` : greater than or equal (`if [ 5 -ge 5 ] ...`)
 
-## while loop :
+## while loop:
 ```bash
 while [ condition ]
 do
@@ -37,7 +37,7 @@ done
 * Without the comparison operator in the `while` loop condition (`while [ $COUNT ] ...`), we create an infinite loop (use `ctrl + c` to stop the script).
 * More `while` loop examples: [Bash While Loop Examples](https://www.cyberciti.biz/faq/bash-while-loop/)
 
-## for loop :
+## for loop:
 ```bash
 for item in list
 do
@@ -46,7 +46,7 @@ done
 ```
 * More `for` loop examples: [Bash For Loop Examples](https://www.cyberciti.biz/faq/bash-for-loop/)
 
-## break & continue :
+## break & continue:
 * both, `while` and `for` loops, support the 2 special instructions `break` and `continue` :
   * `break` causes the current loop to terminate
   * `continues` goes IMMEDIATELY to the top of the loop
