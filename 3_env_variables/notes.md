@@ -1,5 +1,5 @@
 ## Env. variables
-* Variables defined by the sustem.
+* Variables defined by the system.
 * They allow us to know things about our script's environment.
 * We can change the value of any env. variable inside our script, but its value will revert when the script exits.
 * Some env. variables to know:

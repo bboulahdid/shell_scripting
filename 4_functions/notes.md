@@ -40,6 +40,6 @@ hello Boubker
 ## Piping:
 * The way to connect the output of one program to the input of another program without any temporary file.
 ```bash
-# Get all files / folders in currenty directory, sort them in reverse order and return the first 3 results
+# Get all files / folders in current directory, sort them in reverse order and return the first 3 results
 FILES=$(ls | sort -r | head -3)
 ```
